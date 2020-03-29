@@ -77,6 +77,8 @@
                 <artifactId>log4j</artifactId>
                 <version>${junit.version}</version>
             </dependency>
+            
+
      </dependencies>
   </dependencyManagement>
   
@@ -104,7 +106,6 @@
      </build>
   <modules>
   	<module>microservicecloud-api</module>
-  	<module>microservicecloud-provider-dept-8001</module>
   	<module>microservicecloud-consumer-dept-80</module>
   	<module>microservicecloud-euraka-7001</module>
   	<module>microservicecloud-provider-dept-8002</module>
@@ -112,5 +113,6 @@
   	<module>microservicecloud-eureka-7003</module>
   	<module>microservicecloud-provider-dept-8003</module>
   	<module>microservicecloud-provider-dept-8004</module>
+  	<module>microservicecloud-consumer-dept-feign</module>
   </modules>
 </project>
